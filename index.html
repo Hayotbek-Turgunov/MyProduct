@@ -5,15 +5,54 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyProduct</title>
-  
+
+  <!-- FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
   <!-- STYLES --> 
   <link rel="stylesheet" href="./css/necolas.github.io_normalize.css_8.0.1_normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+  <!-- HEADER -->
+  <header class="site-header site-header--open">
+    <div class=" site-header__container container">
+
+      <!-- LOGO -->
+      <a class="site-header__logo logo" href="index.html">
+        <img class="logo__img" src="./img/logo.svg" alt="site-header-logo" width="165" height="30">
+      </a>
       
-      
-    
+     <!-- TOGGLER -->
+     <button class="site-header__sitenav-toggler"><i class="fa-solid fa-bars"></i></button>
+
+      <!-- SITENAV -->
+
+      <div class="site-header__sitenav-wrapper">
+        <nav class="site-header__sitenav sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a class="sitenav__link sitenav__link-active" href="#">Product</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Customers</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Pricing</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Resources</a></li>
+          </ul>
+        </nav>
+        <!-- SITE-HEADER-AUTH -->
+        <div class="site-header__auth">
+          <a class="site-header__login-link" href="">Sign In</a>
+          <a class="button button__nav" type="sumbit " href="#">Sign Up</a>
+        </div>
+        <!-- SITE-HEADER-MOON -->
+        <button type="button" class="site-header__togler-moon" href="">
+          <span site-header__togler-inner>
+            <img src="./img/moon.svg" alt="moon" width="32" height="32">
+          </span>
+        </button>
+      </div>
+
+    </div>
+  </header>
   <script src="./js/main.js"></script>
 </body>
 </html>
