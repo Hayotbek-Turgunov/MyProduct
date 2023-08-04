@@ -8,6 +8,7 @@
   --responsive-menu-bg:#ddd;
   --site-header-logo-link:#173A56;
   --site-header-logo:#173A56;
+  --hero-img:
 }
 
 /* --light-bg:#E5E5E5;
@@ -72,6 +73,7 @@ body{
   height: 100%;
   padding: 0;
   margin: 0;
+  font-weight: 400;
   font-family:"Poppins","Arial",sans-serif;
   font-size: 16px;
   line-height: 28px;
@@ -111,6 +113,11 @@ img{
 .button--small{
   padding: 15px 40px;
   font-weight: 700;
+}
+
+.hero__auth-button {
+  font-weight: 700;
+  padding: 15px 41px;
 }
 
 .dark-mode{
@@ -278,6 +285,56 @@ img{
   background-color: var(--toggle-color);
   border: 0;
 }
+
+/* HERO */
+.hero {
+  padding-top: 25px;
+  padding-bottom: 115px;
+  background-color: var(--body-color);
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__info-wrapper {
+  max-width: 500px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.hero__heading {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 45px;
+  font-size: 18px;
+}
+.hero__auth {
+  display: flex;
+}
+
+
+
+.hero__auth-button--inner {
+  display: flex;
+  align-items: center;
+}
+.hero__auth-button--img {
+  margin-right: 10px;
+}
+.hero__auth-button--text {
+}
+
+
+
+
 
 
 

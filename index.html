@@ -5,17 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MyProduct</title>
-
+  
   <!-- FONT-AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+  
+  
   <!-- STYLES --> 
   <link rel="stylesheet" href="./css/necolas.github.io_normalize.css_8.0.1_normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <!-- HEADER -->
+  
+  <!--SITE-HEADER -->
   <header class="site-header ">
     <div class=" site-header__container container">
       <!-- LOGO -->
@@ -24,11 +25,10 @@
         <span class="logo__text">Product</span>
       </a>
       
-     <!-- TOGGLER -->
-     <button class="site-header__sitenav-toggler"><i class="fa-solid fa-bars"></i></button>
-
+      <!-- TOGGLER -->
+      <button class="site-header__sitenav-toggler"><i class="fa-solid fa-bars"></i></button>
+      
       <!-- SITENAV -->
-
       <div class="site-header__sitenav-wrapper">
         <nav class="site-header__sitenav sitenav">
           <ul class="sitenav__list">
@@ -43,16 +43,46 @@
           <a class="site-header__login-link" href="">Sign In</a>
           <a class="button button__nav" type="sumbit " href="#">Sign Up</a>
         </div>
-        <!-- SITE-HEADER-MOON -->
+        <!-- SITE-HEADER-TOGGLER-MOON -->
         <button type="button" class="site-header__togler-moon" href="">
           <span site-header__togler-inner>
             <img src="./img/moon.svg" alt="moon" width="32" height="32">
           </span>
         </button>
       </div>
-
     </div>
   </header>
-  <script src="./js/main.js"></script>
-</body>
-</html>
+  
+  <!-- MAIN-CONTENT -->
+  <main class="main-content">
+    <!-- HERO -->
+    <section class="hero">
+      <div class=" hero__container container">
+        <!-- HERO-INFO -->
+        <div class="hero__info-wrapper">
+          <h2 class="hero__heading">Work  at the speed
+            of thought</h2>
+            <p class="hero__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+            <!-- HERO-AUTH -->
+            <div class="hero__auth">
+              <a type="button hero__auth-button hero__auth-button--get" class="button" href="#">Get started</a>
+              <button class="hero__auth-button--video" >
+                <span class="hero__auth-button--inner">
+                  <span class="hero__auth-button--img">
+                    <img class="hero__auth--img" src="./img/hero-video.svg" alt="">
+                  </span>
+                   <a type="button" class="hero__auth-button--text" href="">Watch the Video</a>
+                </span>
+              </button>
+            </div>
+          </div>
+          <!-- HERO-IMG -->
+          <div class="hero__img-wrapper">
+            <img class="hero__img" src="./img/hero-body-img-removebg-preview.png" alt="hero-img" width="" srcset="img/hero-body-img-removebg-preview.png 1x , img/hero-body-img-removebg-preview@2x.png 2x">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+  </html>
