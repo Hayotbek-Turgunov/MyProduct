@@ -764,6 +764,13 @@ img{
   text-align: center;
   margin-bottom: 50px;
 }
+
+.pricing__info-title{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .pricing__info-heading {
   margin-top: 0;
   margin-bottom: 8px;
@@ -964,7 +971,6 @@ img{
   list-style: none;
   padding: 0;
   margin: 0;
-  
 }
 
 .socials__item:not(:last-child){
@@ -1061,6 +1067,25 @@ img{
 }
 
 
+
+
+/* ===========PRICING========= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA */
 @media only screen and (max-width:1130px) {
   .customer__content{
@@ -1077,16 +1102,7 @@ img{
   }
 }
 
-@media only screen and (max-width:990px){
-  .story__card-wrapper {
-    display: flex;
-    justify-content: space-around;
-  }
 
-  .story__card-item{
-     margin-bottom: 30px;
-  }
-}
 
 @media only screen and (max-width:990px) {
   /* SITE-HEADER */
@@ -1223,8 +1239,10 @@ img{
     display: flex;
     justify-content: space-around;
   }
-  
-  /* GLOBAL-NEWS */
+
+
+
+ 
   
   
 }
