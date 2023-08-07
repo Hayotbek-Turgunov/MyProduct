@@ -845,6 +845,12 @@ img{
   font-size: 30px;
   position: absolute;
   top: -10px;
+  color: #02897A;
+  font-weight:700;
+}
+
+.pricing__plan-currensy-standard{
+  color: #fff;
 }
 
 .pricing__plan-date{
@@ -853,6 +859,7 @@ img{
 
 .pricing__plan-number{
   font-size: 70px;
+  font-weight: 700;
 }
 
 .pricing__plan-features {
@@ -1055,6 +1062,13 @@ img{
   white-space: nowrap;
   text-decoration: none ;
   color: var(--text-color);
+}
+.site-footer__menu-link:hover{
+  opacity: 0.6;
+}
+
+.site-footer__menu-link:active{
+  opacity: 0.6;
 }
 
 /* FORM */
