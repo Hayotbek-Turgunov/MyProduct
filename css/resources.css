@@ -1,0 +1,396 @@
+/* RESOURCES */
+.great {
+    padding-top: 60px;
+    margin-bottom: 76px;
+}
+.great__container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.great__info{
+    width: 50%;
+}
+
+.great__info-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+}
+.great__info-text {
+    font-size: 20px;
+    line-height:32px ;
+    margin-top: 0;
+    margin-bottom: 24px;
+    
+}
+
+.great__form {
+    margin-bottom: 24px;
+    flex-direction: column;
+    display: flex;
+}
+
+.great__input-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.great__input {
+    display: inline-block;
+    padding: 24px 24px 24px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-radius: 100px;
+    border: none;
+    border: 1px solid #EAEAEA;
+}
+
+.great-button {
+    display: inline-block;
+    padding: 14px;
+    border-radius: 50px;
+    position: absolute;
+    left: 58%;
+    top: 6px;
+}
+
+.great__join {
+    display: flex;
+    align-items: center;
+}
+
+.great__join-img-wrapper {
+    position: relative;
+}
+
+.great__join-img{
+    width: 50px;
+    height: 50px;
+}
+
+.great__join-img-two{
+    position: absolute;
+    left: 60px;
+}
+
+.great__join-img-one{
+    position: absolute;
+    left:30px;
+}
+
+.great__join-info {
+    margin-left: 68px;
+}
+
+.great__join-number{
+    color: var(--accent-color);
+}
+
+.great__bg{
+    position: relative;
+}
+
+.great__img-wrapper {
+    position: relative;
+    
+}
+.great__img {
+    width: 535px;
+    margin-left: -40px;
+    
+    
+}
+.great__img-position {
+    position:absolute;
+    left:27%;
+    top:50% ;
+    z-index: 0;
+}
+
+
+
+/* RECOURCES */
+.resources-story{
+    margin-bottom: 100px;
+}
+
+.resources-story__top{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.resources-story__heading{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resources-story__text{
+    margin-top: 0;
+    font-weight:500;
+}
+
+/* MORE */
+
+.more-stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-stories__text{
+    margin-right: 5px;
+}
+
+.more-stories__img{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* CONTACT-US */
+.contact-us {
+    margin-bottom: 50px;
+} 
+.contact-us__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us__info {
+    text-align: center;
+}
+.contact-us__heading {
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-size: 32px;
+    line-height: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: .2px;
+}
+.contact-us__text {
+    margin-top: 0;
+    margin-bottom: 65px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    
+}
+.site-footer__socials {
+    margin-bottom: 65px;
+}
+
+.socials__list {
+    display: flex;
+    justify-content: center;
+}
+
+/* MAPS */
+
+.maps{
+    margin-bottom: 60px;
+}
+
+
+/* FORM */
+.resources__form{
+    
+}
+
+.contact-page-content{
+    padding: 50px;
+    margin-bottom: 140px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+
+.resources-form__info{
+    text-align: center;
+}
+
+.resources-form__heading{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color: var(--form-heading-color);
+    margin-bottom: 45px;
+}
+::placeholder{
+    color: var(--form-heading-color);
+    font-size: 15px;
+    letter-spacing: 0.1px;
+}
+.form-group {
+    margin-bottom: 45px;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border-radius: 39px;
+    background-color:var(--custom-bg) ;
+}
+
+.form-field-textarea {
+    min-height: 180px;
+    resize: vertical;
+    border-radius: 0;
+}
+
+
+.resources__button{
+    padding: 22px 68px;
+    border-radius: 35px;
+    font-size: 16px;    
+}
+
+
+/* MEDIA */
+@media Only screen and (max-width:1116px) {
+    .great-button{
+        left: 55%;
+    }
+}
+
+@media Only screen and (max-width:990px) {
+    .great-button{
+        position: absolute;
+        left: 85%;   
+    }
+    
+    .great__container{
+        flex-wrap: wrap;
+    }
+    
+    .great__info{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+    
+    .great__img-position{
+        display: none;
+    }
+    
+    .great__img{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .great__img-wrapper{
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .great__form{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .great__input-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .great__input{
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media Only screen and (max-width:890px) {
+    .great-button{
+        /* left: 75%; */
+    }
+}
+
+@media Only screen and  (max-width:800px) {
+    .great-button{
+        left: 83%;
+    }
+}
+
+@media Only screen and (max-width:700px) {
+    .great-button{
+        left: 80%;
+    } 
+    
+    .maps{
+        margin-bottom: 0;
+    }
+    
+    .contact-page-content{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+    }
+    
+    .resources-story{
+        margin-bottom: 50px;
+    }
+}
+
+@media Only screen and (max-width:600px) {
+    .great-button{
+        left:78%;
+    }
+}
+
+@media Only screen and (max-width:540px){
+    .great-button{
+        left: 75%;
+    }
+}
+
+@media Only screen and (max-width:500px)  {
+    .great-button{
+        left: 70%;
+    }
+    
+}
+
+@media Only screen and (max-width:430px) {
+    .great-button{
+        left: 68%;
+    }
+}
+
+@media Only screen and (max-width:400px) {
+    .great-button{
+        left: 64%;
+    } 
+}
+
+@media Only screen and (max-width:350px) {
+    .great-button{
+        left: 60%;
+    }
+}
