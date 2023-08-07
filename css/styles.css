@@ -1,5 +1,6 @@
 /* CUSTOM PROPS */
 :root{
+  --text-color-dark:#000;
   --body-color:##fff;
   --light-color:#E5E5E5;
   --text-color:#22343D;
@@ -11,7 +12,11 @@
   --site-header-logo:#173A56;
   --second-text-color:#737373;
   --site-footer-icon:#EDFFFC;
-  --msg-color:#2F281E
+  --msg-color:#2F281E;
+  --custom-bg:#F5F5F5;
+  --custom-card-border:#DEDEDE;
+  --received-img-businnes:#FFEFEF;
+  --received-img-enterprice:#F2F6FF;
 }
 
 /* --light-bg:#E5E5E5;
@@ -152,6 +157,8 @@ img{
   --site-header-logo:#fff;
   --light-color:#fff;
   --msg-color:#1F2E35;
+  --text-color-dark:#fff;
+  --custom-bg:#22343D;
 }
 
 
@@ -932,7 +939,6 @@ img{
   margin-bottom: 150px;
   color: #fff;
   width: 100%;
-  
 }
 
 .cta__info {
