@@ -184,6 +184,7 @@
 .received {
     padding-top: 35px;
     padding-bottom: 45px;
+    margin-bottom: 100px;
     background-color: var(--custom-bg);  
 }
 
